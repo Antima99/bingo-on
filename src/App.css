@@ -2,7 +2,102 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  height: 150vh;
   width: 100%;
   background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(218, 140, 205, 1) 0%, rgba(0, 212, 255, 1) 100%);;
+}
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 50vh;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  justify-self: center;
+}
+
+.App {
+  text-align: center;
+  background-color: #f4f4f9;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0077b6;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #023e8a;
+  border-radius: 5px;
+}
+
+/* Page Content Styles */
+.home,
+.about,
+.tournaments {
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+h1 {
+  color: #0077b6;
+}
+
+p {
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.history {
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+.history h1 {
+  color: #0077b6;
+}
+
+.history p {
+  color: #333;
+  line-height: 1.6;
 }
