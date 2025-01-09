@@ -4,6 +4,7 @@ import About from "./component/App-components/About";
 import Tournaments from "./component/App-components/Tournaments";
 import Home from "./component/App-components/Home";
 import History from "./component/App-components/History";
+import TipsAndTricks from "./component/App-components/Tips.jsx";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
             <li>
               <Link to="/history">History of Bingo</Link>
             </li>
+            <li>
+              <Link to="/online-bingo-guide">Online bingo Guide</Link>
+            </li>
           </ul>
         </nav>
 
@@ -40,6 +44,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/tournaments" element={<Tournaments />} />
           <Route path="/history" element={<History />} />
+          <Route path="/online-bingo-guide" element={<TipsAndTricks />} />
         </Routes>
       </div>
     </Router>

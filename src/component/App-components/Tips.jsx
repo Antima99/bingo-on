@@ -1,0 +1,107 @@
+function TipsAndTricks() {
+  return (
+    <div className="tips">
+      <h1>Bingo Tips and Tricks</h1>
+      <img
+        src="data:image/jpeg;base64,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"
+        alt="Bingo game tips"
+      />
+      <p>
+        Bingo is a game of luck, but understanding strategies can enhance your
+        playing experience and increase your chances of winning. Whether you're
+        playing in a traditional hall or on a digital platform, these tips and
+        tricks will help you become a smarter Bingo player.
+      </p>
+
+      <h2>1. Play Multiple Cards</h2>
+      <p>
+        One of the simplest ways to increase your chances of winning is to play
+        multiple cards. The more cards you have, the higher the probability that
+        one of them will match the called numbers. However, ensure you can keep
+        up with marking the numbers accurately. Start small and increase as you
+        get comfortable.
+      </p>
+
+      <h2>2. Choose Games with Fewer Players</h2>
+      <p>
+        The fewer the players in a Bingo game, the higher your odds of winning.
+        Try joining games during off-peak hours or on less popular platforms.
+        Many online Bingo platforms allow you to see the number of participants
+        in a game before it starts.
+      </p>
+
+      <h2>3. Understand the Game Patterns</h2>
+      <p>
+        Bingo games often require players to complete specific patterns to win.
+        Familiarize yourself with these patterns before playing. Knowing the
+        required combinations (such as lines, diagonals, or full houses) will
+        allow you to stay alert and mark your numbers efficiently.
+      </p>
+
+      <h2>4. Be Mindful of Your Budget</h2>
+      <p>
+        Set a budget for your Bingo games to ensure you play responsibly. Decide
+        on the maximum amount you're willing to spend in a session and stick to
+        it. This will make the experience more enjoyable without unnecessary
+        stress.
+      </p>
+
+      <h2>5. Use Bingo Strategy: The Tippett Theory</h2>
+      <p>
+        Tippett's theory is based on the idea that in longer Bingo games, the
+        numbers called tend to cluster around the middle of the number range. In
+        a 1-75 Bingo game, the middle number is 38. To apply this theory, choose
+        cards with numbers closer to 1 and 75 for shorter games and cards with
+        numbers closer to 38 for longer games.
+      </p>
+
+      <h2>6. Be Organized</h2>
+      <p>
+        If you’re playing with multiple cards, organization is key. Keep your
+        cards arranged in a way that makes it easy to scan for numbers quickly.
+        In physical Bingo halls, use colored markers to highlight potential
+        wins.
+      </p>
+
+      <h2>7. Play at Reliable Bingo Platforms</h2>
+      <p>
+        When playing online Bingo, choose reputable platforms that offer fair
+        games and secure transactions. Look for websites with positive reviews
+        and proper certifications.
+      </p>
+
+      <h2>8. Take Advantage of Bonuses</h2>
+      <p>
+        Many online Bingo platforms offer bonuses and promotions to attract
+        players. Use these bonuses wisely to extend your playing time and
+        maximize your chances of winning without spending extra money.
+      </p>
+
+      <h2>9. Stay Focused</h2>
+      <p>
+        Staying alert and focused is essential during a Bingo game. Avoid
+        distractions, especially when playing with multiple cards. Missing a
+        number could cost you a win.
+      </p>
+
+      <h2>10. Have Fun!</h2>
+      <p>
+        Bingo is ultimately a game of luck and entertainment. While strategies
+        can improve your gameplay, remember to have fun and enjoy the process.
+        Winning is exciting, but the social experience and thrill of the game
+        are what make Bingo so special.
+      </p>
+
+      <h2>Conclusion</h2>
+      <p>
+        With these tips and tricks, you're now equipped to take your Bingo
+        experience to the next level. Whether you’re a casual player or an
+        enthusiast, applying these strategies will enhance your chances of
+        success while keeping the game fun and engaging. Good luck, and may your
+        next Bingo session be filled with exciting wins!
+      </p>
+    </div>
+  );
+}
+
+export default TipsAndTricks;

@@ -1,10 +1,13 @@
 function Home() {
   return (
     <div className="home">
-      <h1>Welcome to Bingo World!</h1>
+      <h1>
+        Welcome to Bingo World! | Unlimited Bingo guide | Best Bingo tips and
+        strategies
+      </h1>
       <img
         src="https://play-lh.googleusercontent.com/LjgIPGJf_jXGB4WXZ6nGiSgMPIbMnBsCoE9gi1cBc4fEEvaCI4-V5KRD3sk3avE7ueM"
-        alt="Bingo Home"
+        alt="online bingo card with tips"
       />
       <p>
         Bingo is a thrilling and entertaining game played by millions of people

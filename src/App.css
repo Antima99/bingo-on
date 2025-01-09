@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 150vh;
+  height: 300vh;
   width: 100%;
   background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(218, 140, 205, 1) 0%, rgba(0, 212, 255, 1) 100%);;
 }
@@ -100,4 +100,37 @@ p {
 .history p {
   color: #333;
   line-height: 1.6;
+}
+
+
+.tips {
+  max-width: 900px;
+  margin: 2rem auto;
+  text-align: left;
+  padding: 1rem;
+}
+
+.tips h1 {
+  color: #0077b6;
+  text-align: center;
+}
+
+.tips h2 {
+  color: #023e8a;
+  margin-top: 1.5rem;
+}
+
+.tips p {
+  color: #333;
+  line-height: 1.8;
+  margin: 1rem 0;
+}
+
+.tips img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 10px;
 }
