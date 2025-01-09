@@ -22,7 +22,7 @@ function App() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/about">About Bingo</Link>
+              <Link to="/about">Learn Bingo Game Rules - About Bingo</Link>
             </li>
             <li>
               <Link to="/tournaments">Tournaments</Link>
